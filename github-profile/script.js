@@ -21,8 +21,6 @@ async function getRepos(username){
     addReposToCard(respData);
 }
 
-getUser("florinpop17");
-
 function createUserCard(user){
     const cardHTML = `
         <div class = "card">
